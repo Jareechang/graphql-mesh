@@ -14,9 +14,9 @@
           "additionalItems": false,
           "description": "Invalidate the cache when a specific operation is done without an error"
         },
-        "timer": {
-          "type": "string",
-          "description": "Invalidate the cache after specific time, you can free text (for example: 1 minute / 10s)"
+        "ttl": {
+          "type": "integer",
+          "description": "Specified in seconds, the time-to-live (TTL) value limits the lifespan"
         }
       }
     },
